@@ -1,0 +1,40 @@
+body{
+  background-color: #F5F5F5;
+  
+}
+
+
+.App {
+  text-align: center;
+  
+}
+
+
+
+
+
+#front{
+  width: 400px;
+  height: 350px;
+  margin-left: 0px;
+}
+
+#front img{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  background-color: white;
+}
+
+#zz{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

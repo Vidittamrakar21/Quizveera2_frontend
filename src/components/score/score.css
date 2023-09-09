@@ -1,0 +1,89 @@
+#userA{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(183, 180, 180);
+    justify-content: center;
+    height: 70px;
+    width: 280px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+#userimgA{
+    height: 70px;
+    width: 70px;
+}
+
+#userimgA img{
+    height: 100%;
+    width: 100%;
+}
+
+#usernameA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+}
+
+#usernameA h3{
+    margin-left: -30px;
+}
+
+#oop{
+   min-height:  500px;
+}
+
+#as{
+    position: absolute;
+    top: 300px;
+    left: 670px;
+}
+
+.marks{
+    width: 600px;
+    height: 40px;
+   color: white;
+    background-color: rgb(147, 55, 232);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    user-select: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+    #userA{
+     
+        margin-top: 10px;
+        margin-left: 40px;
+       
+    }
+    
+    .marks{
+        width: 320px;
+        height: 50px;
+       color: white;
+        background-color: rgb(147, 55, 232);
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+
+    #as{
+        position: absolute;
+        top: 300px;
+        left: 80px;
+    }
+    
+}

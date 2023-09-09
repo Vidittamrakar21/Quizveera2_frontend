@@ -1,0 +1,141 @@
+
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Noto+Sans+JP:wght@600&display=swap');
+
+
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 55px;
+    border-bottom: 2px solid  rgba(126, 125, 125, 0.705);
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    user-select: none;
+}
+
+
+.now{
+    position: sticky;
+    top: 0;
+    
+}
+
+.bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.bar ul li{
+    position: relative;
+    right: 350px;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(149, 148, 148);
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.admire{
+color: rgb(149, 148, 148);
+text-decoration: none;
+
+}
+
+.bar ul button{
+    position: relative;
+    left: 340px;
+    margin: 8px;
+    background-color: #B799FF;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: lighter;
+}
+
+#cut:hover{
+    background-color: #c7affd;
+
+}
+
+.bar ul h1{
+    position: relative;
+    right: 400px;
+    font-size: 33px;
+    color: #4b068a;
+    font-family: 'Cherry Bomb One', cursive;
+    font-weight: lighter;
+}
+
+.bar .but{
+    color: black;
+    background-color: rgb(201, 198, 198);
+}
+
+.bar .but:hover{
+    background-color: rgb(179, 178, 178);
+    
+}
+
+.active{
+    
+    color: #4b068a;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(201, 198, 198);
+    border-radius: 60px;
+    position: relative;
+    left: 350px;
+}
+
+#menu:hover{
+    background-color: rgb(179, 178, 178);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bar ul li{
+        display: none;
+    }
+
+    .bar ul h1{
+        position: relative;
+        right: 28px;
+        font-size: 29px;
+        
+    }
+
+    #menu{
+        left: -10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .bar ul button{
+        position: relative;
+        left: -20px;
+        margin: 5px;
+       
+       
+      
+    }
+}

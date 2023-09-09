@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap');
+
+#xer{
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 330px;
+    min-height: 300px;
+    width: 1350px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#xer h1{
+    margin-left: -1180px;
+}
+
+#khand{
+    
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1350px;
+    min-height: 250px;
+}
+
+/* styling cards */
+
+@media only screen and (max-width: 600px) {
+    #xer{
+        font-family: 'Noto Sans JP', sans-serif;
+        height: 580px;
+        min-height: 580px;
+        width: 300px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+    
+    #xer h1{
+        margin-left: -180px;
+        font-size: 19px;
+    }
+    
+    #khand{
+        
+        height: 520px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 300px;
+        min-height: 520px;
+      
+    }
+
+   
+}
+

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Noto+Sans+JP:wght@600&display=swap');
+
+
+
+#toto h2{
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+.panel{
+    margin-top: 1px; 
+   min-height: 700px;
+    width: 300px;
+  
+    margin-left: -175px;
+    
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#quizdata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    background-color: aquamarine;
+    color: black;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(183, 180, 180);
+    justify-content: center;
+    height: 70px;
+    width: 280px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+   
+}
+
+#userimg{
+    height: 70px;
+    width: 70px;
+}
+
+#userimg img{
+    height: 100%;
+    width: 100%;
+}
+
+#username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+}
+
+#username h3{
+    margin-left: -30px;
+}
+
+.cp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(183, 180, 180);
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+    min-height: 200px;
+}
+
+#qq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numq{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: 140px;
+    width: 270px;
+    background-color: #AEE2FF;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 15px;
+}
+
+.numq h3,h5{
+  
+    margin-bottom: -15px;
+}
+
+.numq button{
+    margin-top: -10px;
+    color: white;
+    background-color: rgb(110, 110, 231);
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#gu{
+    background-color: blueviolet;
+}
+
+#gu:hover{
+    background-color: rgb(169, 107, 228);
+
+}
+.numq button:hover{
+    cursor: pointer;
+    background-color: rgb(47, 47, 245);
+}
+
+#display{
+
+   border: none;
+   background-color: rgb(183, 180, 180);
+   width: 90px;
+   height: 25px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+
+#display:hover{
+    background-color: rgb(163, 161, 161);
+
+}
+
+@media only screen and (max-width: 600px){
+    .panel{
+        margin-top: 180px; 
+        height: 600px;
+        width: 300px;
+      
+        margin-left: 5px;
+        
+        display: flex;
+        align-items: center;
+    
+        flex-direction: column;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    #user{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(183, 180, 180);
+        justify-content: center;
+        height: 70px;
+        width: 280px;
+        background-color: white;
+        margin-top: -130px;
+      
+        border-radius: 20px;
+       
+    }
+    
+    #userimg{
+        height: 70px;
+        width: 70px;
+    }
+
+    .cp{
+        display: none;
+       
+    }
+}

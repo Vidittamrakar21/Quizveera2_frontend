@@ -1,0 +1,146 @@
+.userB{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(183, 180, 180);
+    justify-content: center;
+    height: 70px;
+    width: 280px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+    
+}
+
+#userimgB{
+    height: 70px;
+    width: 70px;
+}
+
+#userimgB img{
+    height: 100%;
+    width: 100%;
+}
+
+#usernameB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+}
+
+#usernameB h3{
+    margin-left: -30px;
+}
+
+#lala{
+    color: rgb(59, 137, 233);
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+#hula{
+    display: flex;
+    align-items: center;
+ 
+    flex-direction: column;
+    width: 550px;
+    height: 450px;
+    user-select: none;
+    margin-top: -60px;
+    margin-left: 500px;
+}
+
+.tags{
+    width: 500px;
+    height: 35px;
+    margin-top: 20px;
+   
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+    font-size: 17px;
+   /* background-color: rgba(86, 230, 67, 0.822); */
+   /* background-color: rgba(255, 0, 0, 0.799); */
+}
+
+.green{
+    background-color: rgba(86, 230, 67, 0.822);
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.799);
+}
+
+.tags h4{
+    font-weight: 400;
+}
+#ques{
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    outline: none;
+    caret-color: transparent;
+}
+
+#hula button{
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #ACBCFF;
+    color: rgb(125, 4, 239);
+    font-size: 17px;
+}
+
+#hula button:hover{
+    background-color: #98abf7;
+    color: rgb(140, 41, 233);
+}
+
+@media only screen and (max-width:600px){
+    .userB{
+        
+        height: 70px;
+        width: 280px;
+       
+        margin-top: 10px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }
+
+    #hula{
+        display: flex;
+        align-items: center;
+     
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        user-select: none;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+
+    .tags{
+        width: 330px;
+        height: 35px;
+        margin-top: 20px;
+       
+       /* background-color: rgba(86, 230, 67, 0.822); */
+       /* background-color: rgba(255, 0, 0, 0.799); */
+    }
+
+    #hula button{
+        width: 340px;
+        height: 35px;
+      
+    }
+    
+}

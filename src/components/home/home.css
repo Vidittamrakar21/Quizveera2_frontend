@@ -1,0 +1,120 @@
+.bkl{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    position: fixed;
+    top: 200px;
+    left: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 5px 8px 5px rgb(197, 195, 195);
+}
+
+#bklim{
+    height: 280px;
+    width: 350px;
+
+}
+
+#bklim img{
+    height: 100%;
+    width: 100%;
+}
+#bkldes{
+    width: 320px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+#bkldes h4{
+    font-weight: 450;
+
+}
+
+#bklbut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#bklbut button{
+    width: 90px;
+    height: 25px;
+    margin-left: 10px;
+    border: none;
+}
+
+#stuart{
+    background-color: #B799FF;
+}
+
+#stuart:hover{
+    background-color: #a885f9;
+
+}
+
+#pencil{
+    background-color: rgb(212, 208, 208);
+}
+
+#pencil:hover{
+    
+    background-color: rgb(181, 177, 177);
+}
+
+
+@media only screen and (max-width: 600px) {
+    #main{
+       
+        flex-direction: column;
+      }
+
+      #front{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+      }
+
+      .bkl{
+        width: 250px;
+        height: 350px;
+        background-color: white;
+        position: fixed;
+        top: 200px;
+        left: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 1px 5px 8px 5px rgb(197, 195, 195);
+    }
+
+    #bklim{
+        height: 220px;
+        width: 250px;
+    
+    }
+
+    #bkldes{
+        width: 210px;
+        height: 60px;
+        margin-top: 15px;
+    }
+    
+    #bkldes h4{
+        font-weight: 450;
+    
+    }
+    
+    #bklbut{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        margin-top: 10px;
+        height: 50px;
+    }
+}

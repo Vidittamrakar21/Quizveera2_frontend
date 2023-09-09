@@ -1,0 +1,37 @@
+#dabbu{
+  
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    #dabbu{
+        height: 35px;
+        width: 295px;
+        top: 640px;
+        left: 37px;
+        background-color: rgb(246, 206, 94);
+        position: fixed;
+ 
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cloud{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cloud li{
+        list-style-type: none;
+        font-size: 18px;
+        margin-right: 13px;
+      
+    }
+
+    
+
+}

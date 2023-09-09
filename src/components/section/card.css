@@ -1,0 +1,87 @@
+#card{
+    height: 250px;
+    min-height: 250px;
+    width: 250px;
+    margin-left: 15px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px 5px 8px 5px rgb(197, 195, 195);
+}
+
+#card:hover{
+    box-shadow: 1px 9px 8px 5px rgb(182, 179, 179);
+
+}
+
+#card #photo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+    width: 250px;
+    
+}
+
+#card #photo img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#qu{
+    height: 19px;
+    width: 50px;
+    background-color: rgb(181, 247, 247);
+    margin-top: -6px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+#desc h3{
+    color: rgb(58, 57, 57);
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    #card{
+        height: 170px;
+        min-height: 170px;
+        width: 135px;
+        margin-left: 15px;
+        user-select: none;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 1px 5px 8px 5px rgb(197, 195, 195);
+    }
+    
+    
+    #card #photo{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 110px;
+        width: 135px;
+        
+    }
+
+    #desc h3{
+        color: rgb(58, 57, 57);
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    
+    #desc{
+        margin-top: -10px;
+
+    }
+
+    #qu{
+        height: 15px;
+        width: 40px;
+        background-color: rgb(181, 247, 247);
+        margin-top: -6px;
+        margin-left: 10px;
+        border-radius: 6px;
+    }
+}
